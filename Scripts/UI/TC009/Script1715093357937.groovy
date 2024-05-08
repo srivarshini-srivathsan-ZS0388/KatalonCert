@@ -30,6 +30,7 @@ WebUI.maximizeWindow()
 act.zoomBrowser()
 
 WebUI.waitForPageLoad(6)
+WebUI.takeScreenshotAsCheckpoint('VS_Checkpoint')
 
 WebUI.click(findTestObject('Object Repository/Page_STORE/a_About us'))
 

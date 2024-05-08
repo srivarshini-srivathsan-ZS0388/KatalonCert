@@ -41,5 +41,7 @@ WebUI.click(findTestObject('Object Repository/Page_STORE/a_Contact'))
 
 WebUI.click(findTestObject('Object Repository/Page_STORE/button_Close'))
 
+WebUI.takeScreenshotAsCheckpoint('VS_Checkpoint')
+
 WebUI.closeBrowser()
 

@@ -16,7 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
 import Keywords.helpers.*
 
 WebActions act = new WebActions()
@@ -40,6 +39,8 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Page_STORE/a_Conta
 WebUI.click(findTestObject('Object Repository/Page_STORE/a_Contact'))
 
 WebUI.click(findTestObject('Object Repository/Page_STORE/button_Close'))
+
+WebUI.takeScreenshotAsCheckpoint('VS_Checkpoint')
 
 WebUI.closeBrowser()
 

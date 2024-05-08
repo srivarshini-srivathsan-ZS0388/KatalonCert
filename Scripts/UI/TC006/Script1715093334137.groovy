@@ -35,6 +35,8 @@ WebUI.click(findTestObject('Object Repository/Page_STORE/a_About us'))
 
 WebUI.click(findTestObject('Object Repository/Page_STORE/button_Close1'))
 
+WebUI.takeScreenshotAsCheckpoint('VS_Checkpoint')
+
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_STORE/a_Contact'), 3)
 
 WebUI.click(findTestObject('Object Repository/Page_STORE/a_Contact'))
